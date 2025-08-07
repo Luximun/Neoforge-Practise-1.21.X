@@ -2,9 +2,11 @@ package com.tillytam.practisemod.block;
 
 import com.tillytam.practisemod.PractiseMod;
 import com.tillytam.practisemod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -17,11 +19,12 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PractiseMod.MODID);
 
     public static final DeferredBlock<Block> GOOBER_BLOCK = registerBlock("goober_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f)
-                    //.requiresCorrectToolForDrops()
-                    .sound(SoundType.AMETHYST)
-                    .noOcclusion()
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
+                    BlockBehaviour.Properties.of()
+                        .strength(4f)
+                        //.requiresCorrectToolForDrops()
+                        .sound(SoundType.AMETHYST)
+                        .noOcclusion()
             )
     );
 
