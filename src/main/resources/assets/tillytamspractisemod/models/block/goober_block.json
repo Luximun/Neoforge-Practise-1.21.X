@@ -3,5 +3,5 @@
   "textures": {
     "all": "tillytamspractisemod:block/goober_block"
   },
-  "render_type": "translucent"
+  "render_type": "cutout"
 }

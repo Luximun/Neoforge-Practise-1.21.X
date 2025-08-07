@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tillytamspractisemod:goober_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tillytamspractisemod:goober"
+  }
+}

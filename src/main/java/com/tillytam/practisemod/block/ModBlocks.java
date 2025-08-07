@@ -21,6 +21,7 @@ public class ModBlocks {
                     .strength(4f)
                     //.requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)
+                    .noOcclusion()
             )
     );
 
