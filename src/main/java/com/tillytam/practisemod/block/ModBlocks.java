@@ -21,7 +21,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> GOOBER_BLOCK = registerBlock("goober_block",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of()
-                        .strength(4f)
+                        .strength(1f)
                         //.requiresCorrectToolForDrops()
                         .sound(SoundType.AMETHYST)
                         .noOcclusion()

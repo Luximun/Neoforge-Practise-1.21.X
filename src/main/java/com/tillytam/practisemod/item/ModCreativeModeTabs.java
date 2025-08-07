@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GOOBER);
                         output.accept(ModBlocks.GOOBER_BLOCK);
+                        output.accept(ModItems.ENGOOBIFIER);
                     })
                     .build());
 
