@@ -1,5 +1,6 @@
 package com.tillytam.practisemod;
 
+import com.tillytam.practisemod.block.ModBlocks;
 import com.tillytam.practisemod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -55,6 +56,7 @@ public class PractiseMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -71,6 +73,10 @@ public class PractiseMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
             event.accept(ModItems.GOOBER);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+            event.accept(ModBlocks.GOOBER_BLOCK);
         }
     }
 
