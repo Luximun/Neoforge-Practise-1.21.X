@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GOOBER);
                         output.accept(ModBlocks.GOOBER_BLOCK);
                         output.accept(ModItems.ENGOOBIFIER);
+                        output.accept(ModBlocks.EPIC_GOOBER_BLOCK);
                     })
                     .build());
 

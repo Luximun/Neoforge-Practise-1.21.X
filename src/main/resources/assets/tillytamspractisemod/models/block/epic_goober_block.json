@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tillytamspractisemod:block/epic_goober_block"
+  },
+  "render_type": "cutout"
+}

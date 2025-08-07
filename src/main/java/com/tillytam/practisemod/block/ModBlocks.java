@@ -1,6 +1,7 @@
 package com.tillytam.practisemod.block;
 
 import com.tillytam.practisemod.PractiseMod;
+import com.tillytam.practisemod.block.custom.EpicGooberBlock;
 import com.tillytam.practisemod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -25,6 +26,16 @@ public class ModBlocks {
                         //.requiresCorrectToolForDrops()
                         .sound(SoundType.AMETHYST)
                         .noOcclusion()
+            )
+    );
+
+    public static final DeferredBlock<Block> EPIC_GOOBER_BLOCK = registerBlock("epic_goober_block",
+            () -> new EpicGooberBlock(
+                    BlockBehaviour.Properties.of()
+                            .strength(1f)
+                            //.requiresCorrectToolForDrops()
+                            .sound(SoundType.AMETHYST)
+                            .noOcclusion()
             )
     );
 

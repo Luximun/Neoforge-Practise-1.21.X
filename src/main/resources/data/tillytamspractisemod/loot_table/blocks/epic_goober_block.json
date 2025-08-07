@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tillytamspractisemod:goober"
+        }
+      ],
+      "rolls": 9.0
+    }
+  ],
+  "random_sequence": "tillytamspractisemod:blocks/epic_goober_block"
+}
