@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 10,
+  "ingredient": {
+    "item": "tillytamspractisemod:goober"
+  },
+  "result": {
+    "id": "tillytamspractisemod:crispy_goober"
+  }
+}

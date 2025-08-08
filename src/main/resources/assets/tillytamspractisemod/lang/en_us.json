@@ -1,7 +1,12 @@
 {
   "item.tillytamspractisemod.goober": "Goober :3",
   "item.tillytamspractisemod.engoobifier": "Engoobifier :3",
+  "item.tillytamspractisemod.goober_berry": "Goober Berry :3",
+  "item.tillytamspractisemod.gooper_berry": "Gooper Berry :3",
+  "item.tillytamspractisemod.crispy_goober": "Crispy Goober :3",
+
   "block.tillytamspractisemod.goober_block": "Goober :3 (block)",
+  "block.tillytamspractisemod.epic_goober_block": "Epic Goober :3 (block)",
 
   "creativetab.tillytamspractisemod.goober_tab": "Goober Tab ::::::::::::3"
 }

@@ -21,8 +21,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.tillytamspractisemod.goober_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GOOBER);
-                        output.accept(ModBlocks.GOOBER_BLOCK);
+                        output.accept(ModItems.GOOBER_BERRY);
+                        output.accept(ModItems.GOOPER_BERRY);
                         output.accept(ModItems.ENGOOBIFIER);
+                        output.accept(ModItems.CRISPY_GOOBER);
+
+                        output.accept(ModBlocks.GOOBER_BLOCK);
                         output.accept(ModBlocks.EPIC_GOOBER_BLOCK);
                     })
                     .build());
